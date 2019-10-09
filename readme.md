@@ -17,8 +17,7 @@ today.setCurrent(2010, 10, 4)
 
 today.next(2, 'day')
 
-return 
-
+output 
 {
     weekDay: 'sunday',
     date: 6,
@@ -28,7 +27,7 @@ return
 
 today.next(1, 'month')
 
-return 
+output 
 {
     weekDay: 'monday',
     date: 4,
@@ -38,12 +37,46 @@ return
 
 today.next(2, 'year')
 
-return 
+output 
 {
     weekDay: 'sunday',
     date: 4,
     month: 10,
     year: 2020
 }
+```
 
+#### previous()
+```
+# get previous date, month and year
+
+today.previous(2, 'day')
+
+output 
+{
+    weekDay: 'wednesday',
+    date: 2,
+    month: 10,
+    year: 2019
+}
+
+today.previous(1, 'month')
+
+output 
+{
+    weekDay: 'wednesday',
+    date: 4,
+    month: 9,
+    year: 2019
+}
+
+today.previous(2, 'year')
+
+output 
+{
+    weekDay: 'wednesday',
+    date: 4,
+    month: 10,
+    year: 2018
+}
 ```
