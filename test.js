@@ -156,7 +156,7 @@ QUnit.test('lessThan()', function (assert) {
 	assert.ok(today.lessThan('2019-10-05'), 'should return true, because 2019-10-04 less than 2019-10-04')
 })
 
-QUnit.test('moreThanEqual', function (assert) {
+QUnit.test('moreThanEqual()', function (assert) {
 	
 	var today = new Today
 	
@@ -167,7 +167,7 @@ QUnit.test('moreThanEqual', function (assert) {
 	
 })
 
-QUnit.test('lessThanEqual', function (assert) {
+QUnit.test('lessThanEqual()', function (assert) {
 	var today = new Today
 	
 	today.setCurrent(2019, 10, 4)

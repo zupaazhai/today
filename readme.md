@@ -1,4 +1,5 @@
-# Today.js
+# today.js
+
 ## JS ltbrary use for check date
 
 ### How to use
@@ -79,4 +80,46 @@ output
     month: 10,
     year: 2018
 }
+```
+
+#### equal()
+```
+# check today equal selected date, return true/false
+
+today.equal('2019-10-05')
+```
+
+#### between()
+```
+# check today between in selected date, return true/false
+
+today.between('2019-10-05', '2019-10-30')
+```
+
+#### moreThan()
+```
+# check today more than selected date, return true/false
+
+today.between('2019-10-03')
+```
+
+#### moreThanEqual()
+```
+# check today more than or equal selected date, return true/false
+
+today.between('2019-10-04')
+```
+
+#### lessThan()
+```
+# check today less than selected date, return true/false
+
+today.lessThan('2019-10-03')
+```
+
+#### lessThanEqual()
+```
+# check today less than or equal selected date, return true/false
+
+today.lessThanEqual('2019-10-03')
 ```
