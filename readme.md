@@ -100,14 +100,14 @@ today.between('2019-10-05', '2019-10-30')
 ```
 # check today more than selected date, return true/false
 
-today.between('2019-10-03')
+today.moreThan('2019-10-03')
 ```
 
 #### moreThanEqual()
 ```
 # check today more than or equal selected date, return true/false
 
-today.between('2019-10-04')
+today.moreThanEqual('2019-10-04')
 ```
 
 #### lessThan()
